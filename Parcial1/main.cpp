@@ -27,14 +27,16 @@ int main()
         cout<<"Elija una de las opciones anteriores: ";cin>>opc;
         switch (opc) {
             case 1:
-
+                simulacion1(xo,yo,xd,yd,alphao,alphad ,d);
             break;
             case 2:
-
+                simulacion2(xo,yo,xd,yd,alphao,alphad ,d);
             break;
             case 3:
+                simulacion3(xo,yo,xd,yd,alphao,alphad ,d);
             break;
             case 4:
+                simulacion4(xo,yo,xd,yd,alphao,alphad ,d);
             break;
             case 5:
                 cout<<"Rendido, Perdiste."<<endl;
@@ -45,7 +47,5 @@ int main()
         }
 
     }
-
-    movParabolico(0,5,100000,10,45,300,0.1,1,100000);
     return 0;
 }
