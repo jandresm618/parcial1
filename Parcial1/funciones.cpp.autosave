@@ -1,8 +1,0 @@
-#include "funciones.h"
-#include <math.h>
-
-void movParabolico(float xf,float yf,float xi,float yi,float alpha,float t,float dt){
-    int vox,voy;
-    vox=(xf-xi)/(cos(alpha)*t);
-    voy=(yf-yi+1.5*g*pt)
-}
